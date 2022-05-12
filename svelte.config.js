@@ -2,17 +2,11 @@ import adapter from '@sveltejs/adapter-static';
 
 export default {
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			assets: 'docs'
+		}),
+		prerender: {
+			default: true
+		}
 	}
 };
-
-// import adapter from '@sveltejs/adapter-auto';
-
-// /** @type {import('@sveltejs/kit').Config} */
-// const config = {
-// 	kit: {
-// 		adapter: adapter()
-// 	}
-// };
-
-// export default config;

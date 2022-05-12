@@ -1,7 +1,3 @@
-<script context="module">
-	export const prerender = true;
-</script>
-
 <script>
 	import FilePond, { registerPlugin } from 'svelte-filepond';
 
