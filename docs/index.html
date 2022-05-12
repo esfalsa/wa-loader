@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="description"
+			content="Extract World Assembly admission links from emails with ease."
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content=""><title>WA Loader</title>
+	<link rel="stylesheet" href="/wa-loader/_app/assets/pages/__layout.svelte-28c44ad7.css">
+	<link rel="modulepreload" href="/wa-loader/_app/start-38c9ed13.js">
+	<link rel="modulepreload" href="/wa-loader/_app/chunks/index-35534cbb.js">
+	<link rel="modulepreload" href="/wa-loader/_app/chunks/paths-396f020f.js">
+	<link rel="modulepreload" href="/wa-loader/_app/chunks/preload-helper-466a825b.js">
+	<link rel="modulepreload" href="/wa-loader/_app/pages/__layout.svelte-ce0bece6.js">
+	<link rel="modulepreload" href="/wa-loader/_app/pages/index.svelte-8b2fe338.js">
+	</head>
+	<body class="h-full">
+		
+
+
+<div class="flex flex-col min-h-full"><main class="flex-1 p-8">
+
+<h1 class="mb-4 text-5xl font-extrabold text-gray-900">WA Application Loader</h1>
+
+<h2 class="mb-4 text-xl text-gray-700">Quickly extract WA admit links from emails.</h2>
+
+<div class="grid grid-cols-2 gap-4"><section><h3 class="mb-2 text-2xl font-bold text-gray-900">Upload Emails</h3>
+		<p class="my-2 text-sm text-gray-600">Upload <code class="bg-gray-200 rounded p-0.5">.eml</code> files. Multiple files and folders are
+			supported.
+		</p>
+		
+
+
+
+<div class="filepond--wrapper"><input type="file" name="filepond" accept="message/rfc822" multiple ></div></section>
+	<section><h3 class="mb-2 text-2xl font-bold text-gray-900">Admit Links</h3>
+		<div class="space-y-1"><p class="my-2 text-sm text-gray-600">Looks like you haven’t uploaded any files yet.</p>
+			</div></section></div></main>
+
+	<footer class="flex-0 px-8 py-4 mt-auto text-gray-600 bg-gray-200"><p><strong><a href="/wa-loader">WA Loader</a></strong> by Pronoun | <a href="/wa-loader/about">Credits</a></p></footer></div>
+
+
+		<script type="module" data-hydrate="18yweun">
+		import { start } from "/wa-loader/_app/start-38c9ed13.js";
+		start({
+			target: document.querySelector('[data-hydrate="18yweun"]').parentNode,
+			paths: {"base":"/wa-loader","assets":"/wa-loader"},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "always",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/wa-loader/_app/pages/__layout.svelte-ce0bece6.js"),
+						import("/wa-loader/_app/pages/index.svelte-8b2fe338.js")
+				],
+				params: {},
+				routeId: ""
+			}
+		});
+	</script>
+	</body>
+</html>

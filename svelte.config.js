@@ -12,6 +12,7 @@ export default {
 		prerender: {
 			default: true,
 			onError: 'continue'
-		}
+		},
+		trailingSlash: 'always'
 	}
 };
