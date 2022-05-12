@@ -5,7 +5,7 @@
 
 	import { onMount } from 'svelte';
 
-	import { parseISO, formatISO, formatDistance, compareAsc } from 'date-fns';
+	import { parseISO, formatISO, formatDistance } from 'date-fns';
 
 	let PostalMime;
 
