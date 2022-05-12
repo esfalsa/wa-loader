@@ -3,7 +3,7 @@
 </svelte:head>
 
 <div class="content">
-	<p class="mb-2"><a href="/" class="text-blue-600">Back</a></p>
+	<p class="mb-2"><a href=" " class="text-blue-600">Back</a></p>
 
 	<h1 class="mb-2 text-2xl font-bold text-gray-900">About this app</h1>
 

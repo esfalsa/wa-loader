@@ -6,8 +6,12 @@ export default {
 			pages: 'docs',
 			assets: 'docs'
 		}),
+		paths: {
+			base: '/wa-loader'
+		},
 		prerender: {
-			default: true
+			default: true,
+			onError: 'continue'
 		}
 	}
 };
